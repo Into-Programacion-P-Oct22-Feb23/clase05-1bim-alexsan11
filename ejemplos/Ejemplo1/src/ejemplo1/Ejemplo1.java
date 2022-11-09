@@ -32,7 +32,7 @@ public class Ejemplo1 {
         if (promedio < 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
-        }
+                   }
     }
 
 }

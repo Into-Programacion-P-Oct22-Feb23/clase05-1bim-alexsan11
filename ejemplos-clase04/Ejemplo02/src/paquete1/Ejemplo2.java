@@ -34,6 +34,7 @@ public class Ejemplo2 {
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
+         // buffer haciendo una llamada al método nextLine() sin asignarlo a ninguna variable
         
         System.out.printf("Asignatura 1: %s\nNota 1:%.2f\nAsignatura 2:%s\n"
                 + "Nota 2: %.2f\n",
